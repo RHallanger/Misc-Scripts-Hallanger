@@ -13,5 +13,5 @@ elif [ "$gameLevel" -lt 14 ] && [ "$gameLevel" -ne 0 ]; then
 #Laaaaaame, to send a password alongside the command I would most likely need to get sshpass insatalled to just make the very first level just slightly more automated to log into... Yeah, that's a pass.
 else
   echo "If this is your first time connecting, please input 'yes' at the next pormpt..."
-  ssh bandit$gajmeLevel@bandit.labs.overthewire.org -p 2220
+  ssh bandit$gameLevel@bandit.labs.overthewire.org -p 2220
 fi
