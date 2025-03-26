@@ -17,7 +17,7 @@ if [ $INC -ge 10 ];
 then
 	echo "Your shell is not supported."
 	echo "Closing the program..."
-	exit
+	exit 0
 fi
 
 #Installs OMP into BASH or ZSH atm
@@ -29,7 +29,7 @@ then
 	echo "OhMyPOSH has been aliased into .bashrc"
 	source ~/.bashrc
 	echo "OhMyPOSH has been initialized into BASH."
-else if [ $USHELL == "zsh" ];
+elif [ $USHELL == "zsh" ];
 then
 	echo "Z Shell detected..."
 	curl -s https://ohmyposh.dev/install.sh | zsh -s -- -d ~/.local/bin
@@ -39,7 +39,7 @@ then
 	echo "OhMyPosh has been aliased into Z Shell."
 else
 	echo "ERROR: 000001 - SHELL CHECK BYPASSED!!!!!" >> ~/ompscript.log
-	exit
+	exit 1
 fi
 
 echo "Installing the HACK Nerd Font..."
@@ -50,14 +50,14 @@ then
 	echo "BASH detected..."
 	echo "eval \"\$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/tokyo.omp.json)\"" >> ~/.bashrc
 	source ~/.bashrc
-else if [ $USHELL == "zsh" ];
+elif [ $USHELL == "zsh" ];
 	echo "ZSH detected..."
 	echo "eval \"\$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/tokyo.omp.json)\"" >> ~/.zshrc
 	source ~/.zshrc
 else
 	echo "ERROR: 000002 EVAL BYPASS!!!!!" >> ~/ompscript.log
-	exit
+	exit 2
 fi
 
 echo "OhMyPOSH successfully installed..."
-exit
+exit 3
