@@ -7,7 +7,7 @@ INC=0
 #This while loop will search the SHELL env var path until it lands on Z Shell or BASH with up to 10 directories in path.
 while ([ $USHELL != "zsh" ] || [ $USHELL != "bash" ]) && [ $INC -le 10 ];
 do
-	USHELL=$(echo $SHELL | awk -F'/' '{print $i}')
+	USHELL=$(echo $SHELL | awk -F'/' '{print $INC}')
 	echo "$USHELL $INC"
 	INC=$((INC + 1))
 done
