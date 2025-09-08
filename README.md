@@ -21,7 +21,7 @@ OTW-Bandit or Over-the-Wire Bandit is a simple script that was supposed to autom
 But due to the nature of the game itself, there are many more rules that would need to be implemented for full functionality.
 
 <h2>
-Stanley-Parable-Tex-Adventure
+Stanley-Parable-Text-Adventure
 </h2>
 
 It is as it sounds, I decided to re-create The Stanley Parable (not ultra deluxe edition) as a text adventure with a single Python script.
