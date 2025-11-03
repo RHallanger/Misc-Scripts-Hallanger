@@ -1,3 +1,4 @@
+#! /bin/bash
 dnf update
 dnf upgrade
 dnf install wget
