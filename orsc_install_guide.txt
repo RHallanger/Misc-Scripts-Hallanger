@@ -1,7 +1,8 @@
 1) Use the command 'orsc' to open RSC+
 
------ Initial Setup -----
+-------- Initial Setup -------
 - Select 'no' to both popups
+------------------------------
 
 2) Select the GEAR ICON in the TOP-RIGHT of the new interface after it has completed loading.
 
