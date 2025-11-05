@@ -9,11 +9,11 @@
 
 4) Select 'Add New World'
 
-5) In 'World x URL' input '10.0.17.113'
+5) In 'World x URL' input '10.0.17.77'
 
 6) In 'World x Port', set it to '50000' (It may have autofilled to 43594)
 
-7) In 'World x RSA Public Key', copy and paste the long code that can be found in '<your home>/Downloads/orsc_rsa_modules.txt'.
+7) In 'World x RSA Public Key', copy and paste the long code that can be found in '<your home>/Downloads/rsa_key'.
 (ie. 7445226211319444121974048206228955961629271768435271384344902261087176330690813027426868254531568990267574261861216477661054220967423836386549665137845163)
 
 8) In 'World x RSA Exponent', input '65537'.
