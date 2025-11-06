@@ -6,7 +6,7 @@ SECTION 1: Installing and Setting up RSC+ for NIC Host
 
 2) Copy/paste or enter the following commands:
 	a) sudo chmod +x <your path>/linux_nic_orsc_install.sh
-	b) alias orsc='java -jar /NICRSC/rscplus.jar'
+	b) echo "alias orsc='java -jar /NICRSC/rscplus.jar'" >> ~/.bashrc
 	c) sudo <your path>/linux_nic_orsc_install.sh
 
 
