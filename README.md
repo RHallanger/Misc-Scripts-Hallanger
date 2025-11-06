@@ -4,7 +4,7 @@ Miscellaneous Scripts From Hallanger
 
 Welcome to my personal repository where I store the random scripts and projects that I make.
 
-I am by no means professional with coding and these scripts and projects are more experimental in nature.
+I am by no means a professional with coding and these scripts and projects are more experimental in nature.
 
 <h2>
 OMP-Installer
@@ -27,3 +27,9 @@ Stanley-Parable-Text-Adventure
 It is as it sounds, I decided to re-create The Stanley Parable (not ultra deluxe edition) as a text adventure with a single Python script.
 The project was made for a class that I put way too much effort in for an introductory 'If-Else' assignment.
 Of course, with changes to adhere to the text based format.
+
+<h2>
+NIC RSC
+</h2>
+
+A quick install script to try installing dependencies and get my classmates connected to a Runescape Classic server that is hosted to a LAN.
