@@ -1,0 +1,49 @@
+#######################################################
+SECTION 1: Installing and Setting up RSC+ for NIC Host
+#######################################################
+
+1) Open the terminal for your Rocky/RHEL linux system.
+
+2) Copy/paste or enter the following commands:
+	a) sudo chmod +x <your path>/linux_nic_orsc_install.sh
+	b) alias orsc='java -jar /NICRSC/rscplus.jar'
+	c) sudo <your path>/linux_nic_orsc_install.sh
+
+
+
+#######################################################
+SECTION 2: Setting up RSC+ Client
+#######################################################
+
+1) Use the command 'orsc' in bash to open RSC+
+
+----------------- Initial Setup --------------------
+- Select 'yes' to portable mode if prompted.
+- Select 'no' to check for updates if prompted.
+----------------------------------------------------
+
+2) Select the GEAR ICON in the TOP-RIGHT of the new interface after it has completed loading.
+
+3) Select the 'World List' tab at the top of the new Settings interface.
+
+4) Select 'Add New World'
+
+5) In 'World x URL' input '10.0.17.77'
+
+6) In 'World x Port', set it to '50000' (It may have autofilled to 43594)
+
+7) In 'World x RSA Public Key', copy and paste the long code that can be found in '/NICRSC/rsa_key'.
+
+(ie. 7445226211319444121974048206228955961629271768435271384344902261087176330690813027426868254531568990267574261861216477661054220967423836386549665137845163)
+
+8) In 'World x RSA Exponent', input '65537'.
+
+9) Select 'Apply' then 'OK' at the BOTTOM-LEFT of the Settings interface.
+
+10) Ensure that the associated world is selected at the bottom ofthe 'RSCPlus' client. (Should look like a red-boxed '1' or so)
+
+11) Select 'Signup'. (If you are being asked for login credentials, select 'Cancel' first)
+
+12) Input your details, agree to the terms and conditions, and select 'Submit'.
+
+Congratulations, you have completed the creation of your NIC RSC+ account.
